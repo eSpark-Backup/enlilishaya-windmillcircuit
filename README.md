@@ -48,3 +48,6 @@ Motion and Timer Control:
     - Ensure proper interaction between the motion detector, timer relay, and RF remote control for desired functionality.
 - Protection and Safety:
     - Include circuit protection (e.g., fuses or diodes) to safeguard components.
+
+### Preferred PCB Dimensions
+![image](https://github.com/user-attachments/assets/109b2ca4-86d2-4442-8f19-66942dc18803)
