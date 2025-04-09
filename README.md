@@ -58,7 +58,7 @@ Some key notes:
 - The terminal blocks to be placed on right and left edges (similar to v1.0 of design) but moved inwards by 0.5cm.
 - Three or Four standard mounting holes required in the design on the edges.
 - Battery should be placed on the PCB. Preferred location below the alternator cutout area. Placement should be proper and through a battery holder if possible for user convenience.
-- Rough dimensions below:
+- Rough dimensions below:  
 ![image](https://github.com/user-attachments/assets/109b2ca4-86d2-4442-8f19-66942dc18803)
 
 ### Firmware Requirements
