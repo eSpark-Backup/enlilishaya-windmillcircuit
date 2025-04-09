@@ -37,6 +37,7 @@ Motion and Timer Control:
     - Magnetic reed switch to detect motion and reset the timer.
 - BLE Based control:
     - A BLE based mechanism to control via a mobile application, similar functionality needed as was being fulfilled through RF in v1.0 of design.
+    - Preferred solution to have chip antenna for better range.
 - LEDs:
     - 10 LEDs with current-limiting resistors.
     - Exact LED info **TBD**
