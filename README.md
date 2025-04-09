@@ -31,9 +31,9 @@ Motion and Timer Control:
     - TP4056 (Handles Li-Ion battery charging with overcharge protection)
 - [Battery](https://www.amazon.com/PAOWANG-Rechargeable-Batteries-Headlamps-Flashlights/dp/B0D1Y92JBM/ref=sr_1_3?sr=8-3):
     - 3.7V 9900mAh Li-Ion rechargeable battery (18650 type)
-- [Timer Control Relay]([https://www.amazon.com/Control-Adjustable-Automotive-Accessory-Applications/dp/B07V867LRN/ref=sr_1_1?s=industrial&sr=1-1](https://www.amazon.com/10Pcs-Mount-Power-Relay-Micro/dp/B0BV9XLDKY/ref=sr_1_1?s=industrial&sr=1-1)):
+- [Timer Control Relay](https://www.amazon.com/10Pcs-Mount-Power-Relay-Micro/dp/B0BV9XLDKY/ref=sr_1_1?s=industrial&sr=1-1):
     - Controls LED shutdown after 10 minutes of inactivity.
-- Motion Detector:
+- Motion Detector(https://www.littelfuse.com/products/sensors/fluid-level-position-sensors/reed-switches):
     - Magnetic reed switch to detect motion and reset the timer.
 - BLE Based control:
     - A BLE based mechanism to control via a mobile application, similar functionality needed as was being fulfilled through RF in v1.0 of design.
@@ -41,8 +41,6 @@ Motion and Timer Control:
 - [LEDs](https://www.amazon.com/gp/aw/d/B07TKL2JRM/ref=ox_sc_saved_title_1?smid=A3KMW5XZ660KGT&psc=1):
     - 10 LEDs with current-limiting resistors.
     - Exact LED info **TBD**
-- [Magnetic Reed Switch](https://www.littelfuse.com/products/sensors/fluid-level-position-sensors/reed-switches):
-    - For detecting windmill activity
 ### Key Requirements:
 - Automatic Power Switching:
     - Seamlessly switch between alternator and battery power without interruption.
