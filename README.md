@@ -2,7 +2,7 @@
 #### Client Name: Enlil Ishaya
 
 ## Project Requirements
-Design a circuit to power 10 LEDs using an alternator and a rechargeable battery. The circuit is driving its power source from a Wind Mill. Additionally, the circuit will incorporate motion detection (to detect movement of wind mill), a timer relay, and a wireless remote control. There is a current solution that is built off of aftermarket breakout parts but it has one major problem. **The circuit when powered via alternator does not charge battery and neither powers LEDs properly. When on battery, everything works fine.** Below is a detailed breakdown of the requirements:
+Design a circuit to power 10 LEDs using an alternator and a rechargeable battery. The circuit is driving its power source from a Wind Mill. Additionally, the circuit will incorporate motion detection (to detect movement of wind mill), a timer relay, and a wireless (BLE) control. There is a current solution that is built off of aftermarket breakout parts but it has one major problem. **The circuit when powered via alternator does not charge battery and neither powers LEDs properly. When on battery, everything works fine.** Below is a detailed breakdown of the requirements:
 
 ### Functionality:
 - Primary Power Source - Alternator:
@@ -46,7 +46,7 @@ Motion and Timer Control:
 - Power Management and Battery Protection:
     - Prevent simultaneous battery charging and discharging to protect the battery.
 - Integrated Controls:
-    - Ensure proper interaction between the motion detector, timer relay, and RF remote control for desired functionality.
+    - Ensure proper interaction between the motion detector, timer relay, and BLE control for desired functionality.
 - Protection and Safety:
     - Include circuit protection (e.g., fuses or diodes) to safeguard components.
 - Intellingence on-board:
