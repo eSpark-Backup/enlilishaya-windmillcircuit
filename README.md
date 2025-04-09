@@ -33,7 +33,7 @@ Motion and Timer Control:
     - 3.7V 9900mAh Li-Ion rechargeable battery (18650 type)
 - [Timer Control Relay](https://www.amazon.com/10Pcs-Mount-Power-Relay-Micro/dp/B0BV9XLDKY/ref=sr_1_1?s=industrial&sr=1-1):
     - Controls LED shutdown after 10 minutes of inactivity.
-- Motion Detector(https://www.littelfuse.com/products/sensors/fluid-level-position-sensors/reed-switches):
+- [Motion Detector](https://www.littelfuse.com/products/sensors/fluid-level-position-sensors/reed-switches):
     - Magnetic reed switch to detect motion and reset the timer.
 - BLE Based control:
     - A BLE based mechanism to control via a mobile application, similar functionality needed as was being fulfilled through RF in v1.0 of design.
