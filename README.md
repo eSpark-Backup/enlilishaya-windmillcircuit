@@ -23,24 +23,26 @@ Motion and Timer Control:
 - State Retention:
     - The circuit must retain the last state of the LEDs (on or off) regardless of motion detection.
 ### Components:
-- Alternator:
+- [Alternator](https://www.ebay.com/itm/274940828741?_nkw=274940828741&itmmeta=01J7C7CPJSFZ7H2VVFA4M672GB&hash=item4003c01c45:g:DYcAAOSwVtZaHLFf&itmprp=enc%3AAQAJAAAA4HoV3kP08IDx%2BKZ9MfhVJKmmTmVcbp%2FR0J8iaaMzR6SVcQgsE--HT9R2EWxvJe4AlzBuYXU9gDI84JsctacrTpHAkTtYAweVX%2BvyHSfmbHyktLRCSjhF7vSQxdFZDgB7XJIO1PO31h6aygWzbySGB7hFIIS5h%2F9CUMvpeH9zbJUkR%2Bh%2BrcxIurip0yfOEVMhmGZwCpZLNHSpCzCaD5OfOueVsTlc2DPRfzjvmc88zONhc7kqc5OxT40k5uF7ZaOEBPqxNKJL9ASx0ktvzNlJhhbHhrKG8%2FSZZfh8oN8jrxBu%7Ctkp%3ABFBMtumyh7tk):
     - Model: B00224 (1V/50 RPM, max 12V AC, 4-wire output)
-- Step-Down Buck Converter:
+- [Step-Down Buck Converter](https://www.amazon.com/AITRIP-Converter-2-5-35V-Regulator-Adjustable/dp/B09F8WFFBJ/ref=sr_1_1?s=industrial&sr=1-1):
     - LM2596HV (Adjust input AC voltage to suitable levels for TP4056 and LEDs)
-- Charging Module:
+- [Charging Module](https://www.amazon.com/Lithium-Battery-Charging-Protection-Functions/dp/B093FYB1ZK/ref=sr_1_3?s=industrial&sr=1-3):
     - TP4056 (Handles Li-Ion battery charging with overcharge protection)
-- Battery:
+- [Battery](https://www.amazon.com/PAOWANG-Rechargeable-Batteries-Headlamps-Flashlights/dp/B0D1Y92JBM/ref=sr_1_3?sr=8-3):
     - 3.7V 9900mAh Li-Ion rechargeable battery (18650 type)
-- Timer Control Relay:
+- [Timer Control Relay]([https://www.amazon.com/Control-Adjustable-Automotive-Accessory-Applications/dp/B07V867LRN/ref=sr_1_1?s=industrial&sr=1-1](https://www.amazon.com/10Pcs-Mount-Power-Relay-Micro/dp/B0BV9XLDKY/ref=sr_1_1?s=industrial&sr=1-1)):
     - Controls LED shutdown after 10 minutes of inactivity.
 - Motion Detector:
     - Magnetic reed switch to detect motion and reset the timer.
 - BLE Based control:
     - A BLE based mechanism to control via a mobile application, similar functionality needed as was being fulfilled through RF in v1.0 of design.
     - Preferred solution to have chip antenna for better range.
-- LEDs:
+- [LEDs](https://www.amazon.com/gp/aw/d/B07TKL2JRM/ref=ox_sc_saved_title_1?smid=A3KMW5XZ660KGT&psc=1):
     - 10 LEDs with current-limiting resistors.
     - Exact LED info **TBD**
+- [Magnetic Reed Switch](https://www.littelfuse.com/products/sensors/fluid-level-position-sensors/reed-switches):
+    - For detecting windmill activity
 ### Key Requirements:
 - Automatic Power Switching:
     - Seamlessly switch between alternator and battery power without interruption.
