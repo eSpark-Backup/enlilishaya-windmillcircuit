@@ -60,3 +60,13 @@ Some key notes:
 - Battery should be placed on the PCB. Preferred location below the alternator cutout area. Placement should be proper and through a battery holder if possible for user convenience.
 - Rough dimensions below:
 ![image](https://github.com/user-attachments/assets/109b2ca4-86d2-4442-8f19-66942dc18803)
+
+### Firmware Requirements
+### LED Logic Truth Table
+![image](https://github.com/user-attachments/assets/a8d7d8c5-3b77-414a-8753-24f01504dc8c)
+| BLE Application command (ON/OFF) | In Motion (Y/N) | LED Lights (ON/OFF) |
+|----------------------------------|-----------------|---------------------|
+| ON                               | Y               | ON                  |
+| OFF                               | Y               | OFF                  |
+| ON                               | N               | ON                  |
+| ON                               | N               | ON (for X minutes, then shuts OFF)                  |
