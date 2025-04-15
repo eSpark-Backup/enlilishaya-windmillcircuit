@@ -1,16 +1,16 @@
 Board Information Report
 Filename     : S:\enlilishaya-windmillcircuit\Design-Files\Design-v1.0\Windmill_Circuit_v1.0.PcbDoc
-Date         : 4/14/2025
-Time         : 1:48:44 PM
+Date         : 4/15/2025
+Time         : 4:04:04 PM
 Time Elapsed : 00:00:00
 
 Routing Information
-    Routing completion, 3.53%
+    Routing completion, 98.24%
     Connections, 170
-    Connections routed, 6
-    Connections remaining, 164
+    Connections routed, 167
+    Connections remaining, 3
 count : 4
 
 Net Track Width, Count
-    10mils, 54
+    6mils, 54
 count : 1
