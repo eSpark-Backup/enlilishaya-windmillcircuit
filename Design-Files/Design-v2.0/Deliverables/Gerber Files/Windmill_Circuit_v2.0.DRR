@@ -1,0 +1,22 @@
+----------------------------------------------------------------------------------------------------------------------------------
+NCDrill File Report For: Windmill_Circuit_v2.0.PcbDoc   4/24/2025  3:36:52 PM
+----------------------------------------------------------------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : Windmill_Circuit_v2.0.TXT
+
+Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
+----------------------------------------------------------------------------------------------------------------------------------
+T1      0.3mm (12mil)                                             Round             192       PTH        709.32mm (27.93inch)
+T2      0.9mm (35mil)                                             Round             2         PTH        2.54mm (0.10inch)
+T3      1mm (39mil)                                               Round             2         PTH        2.50mm (0.10inch)
+T4      1.2mm (47mil)                                             Round             4         PTH        7.62mm (0.30inch)
+T5      5mm (197mil)                                              Round             4         PTH        387.96mm (15.27inch)
+----------------------------------------------------------------------------------------------------------------------------------
+Totals                                                                              204
+
+Two holes at same point : 1
+-----------------------
+-3157,166
+
+Total Processing Time (hh:mm:ss) : 00:00:00
