@@ -2,34 +2,35 @@
 FileName = Windmill_Circuit_v2.0.GBR
 AutoAperture = True
 *************************************************************
-Generating : Bottom Layer
-      File : Windmill_Circuit_v2.0.GBL
+Generating : Board_Outline
+      File : Windmill_Circuit_v2.0.GM15
 
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
+    Adding Layer      : Board_Outline
 
 
 Used DCodes :
     D15
-    D18
-    D98
-    D99
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
-    D127
+    D135
 *************************************************************
 
 *************************************************************
-Generating : Bottom Solder
-      File : Windmill_Circuit_v2.0.GBS
+Generating : Fabrication_Layer
+      File : Windmill_Circuit_v2.0.GM2
 
-    Adding Layer      : Bottom Solder
+    Adding Layer      : Fabrication_Layer
+
+
+Used DCodes :
+    D15
+    D133
+    D134
+*************************************************************
+
+*************************************************************
+Generating : Bottom Paste
+      File : Windmill_Circuit_v2.0.GBP
+
+    Adding Layer      : Bottom Paste
 
     Adding Layer      : Bottom Layer
 
@@ -37,88 +38,6 @@ Generating : Bottom Solder
 
 
 Used DCodes :
-    D90
-    D91
-    D92
-    D93
-    D94
-    D95
-    D96
-*************************************************************
-
-*************************************************************
-Generating : Top Layer
-      File : Windmill_Circuit_v2.0.GTL
-
-    Adding Layer      : Top Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D18
-    D23
-    D24
-    D25
-    D26
-    D27
-    D28
-    D29
-    D30
-    D31
-    D32
-    D33
-    D34
-    D35
-    D36
-    D37
-    D38
-    D39
-    D40
-    D41
-    D42
-    D43
-    D44
-    D45
-    D46
-    D47
-    D48
-    D49
-    D50
-    D51
-    D52
-    D53
-    D97
-    D98
-    D99
-    D100
-    D101
-    D102
-    D103
-    D104
-    D105
-    D106
-    D107
-    D108
-    D109
-    D110
-    D111
-    D112
-    D113
-    D114
-    D115
-    D116
-    D117
-    D118
-    D119
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
-    D127
 *************************************************************
 
 *************************************************************
@@ -167,15 +86,28 @@ Used DCodes :
 *************************************************************
 
 *************************************************************
-Generating : Board_Outline
-      File : Windmill_Circuit_v2.0.GM15
+Generating : Bottom Solder
+      File : Windmill_Circuit_v2.0.GBS
 
-    Adding Layer      : Board_Outline
+    Adding Layer      : Bottom Solder
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
 
 
 Used DCodes :
-    D15
-    D130
+    D90
+    D91
+    D92
+    D93
+    D94
+    D95
+    D96
+    D97
+    D98
+    D99
+    D100
 *************************************************************
 
 *************************************************************
@@ -233,33 +165,10 @@ Used DCodes :
     D94
     D95
     D96
-*************************************************************
-
-*************************************************************
-Generating : Bottom Paste
-      File : Windmill_Circuit_v2.0.GBP
-
-    Adding Layer      : Bottom Paste
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-*************************************************************
-
-*************************************************************
-Generating : Fabrication_Layer
-      File : Windmill_Circuit_v2.0.GM2
-
-    Adding Layer      : Fabrication_Layer
-
-
-Used DCodes :
-    D15
-    D128
-    D129
+    D97
+    D98
+    D99
+    D100
 *************************************************************
 
 *************************************************************
@@ -293,25 +202,6 @@ Used DCodes :
     D20
     D21
     D22
-*************************************************************
-
-*************************************************************
-Generating : Bottom Pad Master
-      File : Windmill_Circuit_v2.0.GPB
-
-    Adding Layer      : Bottom Layer
-
-    Adding Layer      : Multi-Layer
-
-
-Used DCodes :
-    D120
-    D121
-    D122
-    D123
-    D124
-    D125
-    D126
 *************************************************************
 
 *************************************************************
@@ -355,7 +245,123 @@ Used DCodes :
     D51
     D52
     D53
-    D97
+    D101
+    D124
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+*************************************************************
+
+*************************************************************
+Generating : Bottom Pad Master
+      File : Windmill_Circuit_v2.0.GPB
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D124
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+*************************************************************
+
+*************************************************************
+Generating : Bottom Layer
+      File : Windmill_Circuit_v2.0.GBL
+
+    Adding Layer      : Bottom Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D15
+    D18
+    D102
+    D103
+    D124
+    D125
+    D126
+    D127
+    D128
+    D129
+    D130
+    D131
+    D132
+*************************************************************
+
+*************************************************************
+Generating : Top Layer
+      File : Windmill_Circuit_v2.0.GTL
+
+    Adding Layer      : Top Layer
+
+    Adding Layer      : Multi-Layer
+
+
+Used DCodes :
+    D18
+    D23
+    D24
+    D25
+    D26
+    D27
+    D28
+    D29
+    D30
+    D31
+    D32
+    D33
+    D34
+    D35
+    D36
+    D37
+    D38
+    D39
+    D40
+    D41
+    D42
+    D43
+    D44
+    D45
+    D46
+    D47
+    D48
+    D49
+    D50
+    D51
+    D52
+    D53
+    D101
+    D102
+    D103
+    D104
+    D105
+    D106
+    D107
+    D108
+    D109
+    D110
+    D111
+    D112
+    D113
+    D114
+    D115
+    D116
+    D117
+    D118
+    D119
     D120
     D121
     D122
@@ -363,6 +369,12 @@ Used DCodes :
     D124
     D125
     D126
+    D127
+    D128
+    D129
+    D130
+    D131
+    D132
 *************************************************************
 
 *************************************************************
@@ -377,8 +389,8 @@ Generating : Drill Drawing
 Used DCodes :
     D10
     D15
-    D128
-    D131
+    D133
+    D136
 *************************************************************
 
 *************************************************************
@@ -400,6 +412,6 @@ Generating : Profile
 
 
 Used DCodes :
-    D132
+    D137
 *************************************************************
 
