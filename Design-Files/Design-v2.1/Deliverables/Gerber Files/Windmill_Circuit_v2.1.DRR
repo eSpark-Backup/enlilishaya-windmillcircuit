@@ -1,43 +1,25 @@
 ----------------------------------------------------------------------------------------------------------------------------------
-NCDrill File Report For: Windmill_Circuit_v2.0.PcbDoc   4/29/2025  10:54:11 AM
+NCDrill File Report For: Windmill_Circuit_v2.1.PcbDoc   7/11/2025  5:53:18 PM
 ----------------------------------------------------------------------------------------------------------------------------------
 
 Layer Pair : Top Layer to Bottom Layer
-ASCII RoundHoles File : Windmill_Circuit_v2.0.TXT
+ASCII RoundHoles File : Windmill_Circuit_v2.1.TXT
 
 Tool       Hole Size               Hole Tolerance               Hole Type       Hole Count   Plated         Tool Travel
 ----------------------------------------------------------------------------------------------------------------------------------
-T1      0.3mm (12mil)                                             Round             201       PTH        721.21mm (28.39inch)
+T1      0.3mm (12mil)                                             Round             193       PTH        843.49mm (33.21inch)
 T2      0.9mm (35mil)                                             Round             2         PTH        2.54mm (0.10inch)
 T3      1mm (39mil)                                               Round             2         PTH        2.50mm (0.10inch)
-T4      1.2mm (47mil)                                             Round             24        PTH        236.59mm (9.31inch)
+T4      1.2mm (47mil)                                             Round             6         PTH        101.08mm (3.98inch)
 T5      5mm (197mil)                                              Round             4         PTH        387.96mm (15.27inch)
-T6      1.5mm (59mil)                                             Round             20        NPTH       78.16mm (3.08inch)
+T6      1.5mm (59mil)                                             Round             2         NPTH       3.00mm (0.12inch)
 ----------------------------------------------------------------------------------------------------------------------------------
-Totals                                                                              253
+Totals                                                                              209
 
-Two holes at same point : 21
+Two holes at same point : 3
 -----------------------
 -3157,166
-2972,-1537
-2972,-1419
-2972,-1208
-2972,-1090
-2972,-880
-2972,-761
-2972,-551
-2972,-433
-2972,-222
-2972,-104
-2972,107
-2972,225
-2972,436
-2972,554
-2972,764
-2972,1540
-2972,1422
-2972,1211
-2972,1093
-2972,882
+3377,-60
+3377,58
 
-Total Processing Time (hh:mm:ss) : 00:00:02
+Total Processing Time (hh:mm:ss) : 00:00:01
